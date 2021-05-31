@@ -11,7 +11,7 @@ public class JobParser {
         JobId = Integer.parseInt(fieldBuffer[2]);
         JobCoreCount = Integer.parseInt(fieldBuffer[4]);
         JobMemory = Integer.parseInt(fieldBuffer[5]);
-        JobDisk = Integer.parseInt(fieldBuffer[6].trim()); // remove whitespace
+        JobDisk = Integer.parseInt(fieldBuffer[6].trim());
     }
     
     protected Integer JobCoreCount() {
